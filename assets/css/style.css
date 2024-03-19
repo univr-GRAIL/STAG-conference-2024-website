@@ -144,6 +144,10 @@ box-sizing: border-box;
 	flex-direction: column;
   	align-items: center;
   	justify-content: center;
+
+	background-image: url("../../assets/images/piazzaBraBW.jpg");
+	background-size: cover;
+	background-position: center bottom;
 }
 
 .column-left h2{
@@ -675,9 +679,9 @@ position: relative;
 @media (max-width: 767px) {
 #head {
 	min-height: 420px;
-	/*padding-top: 160px;*/
+	/*padding-top: 160px;
 	padding-left: 10px;
-	padding-right: 10px;
+	padding-right: 10px;*/
 }
 #head .lead {
 	font-size: 34px;
