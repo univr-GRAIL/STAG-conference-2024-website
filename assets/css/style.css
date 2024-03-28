@@ -6,12 +6,6 @@ Note: Please do not remove the footer backlink (webthemez.com)--(if you want to 
 Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/
 */
 
-/*
-#719171
-rgb(71, 114, 71)
-*/
-
-
 /*------ Custom ------*/
 
 /*Homepage*/
@@ -27,6 +21,11 @@ rgb(71, 114, 71)
 	text-align: center;
 	position: absolute;
 	z-index: 300;
+}
+
+.container.sectionBox{
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 /*Call for papers*/
@@ -203,6 +202,7 @@ element.style {}
 .row-head {
 	max-height: 600px;
 	height: 500px;
+	min-height: inherit;
 }
 
 .column-left {
@@ -294,6 +294,9 @@ element.style {}
 		width: 100%;
 		flex-direction: column;
 		height: auto;
+		padding: 50px;
+
+		flex: 1;
 	}
 
 	.info-sec h1 {
@@ -302,6 +305,7 @@ element.style {}
 
 	.column-right {
 		width: 100%;
+		height: 500px;
 	}
 
 	.logo-sec {
@@ -312,6 +316,27 @@ element.style {}
 
 	.da-slide p.attribution {
 		font-size: 12px;
+	}
+
+	.fa-4x{
+		font-size: 3em;
+	}
+
+	#head {
+		/*min-height: 500px;
+		padding-top: 160px;
+		padding-left: 10px;
+		padding-right: 10px;*/
+	}
+
+	#head,
+	.row-head {
+		display: flex;
+		flex-direction: column;
+
+		max-height: none;
+		height: auto;
+		min-height: auto;
 	}
 }
 
@@ -938,13 +963,6 @@ nav#filter a.current {
   MEDIA QUERIES
 */
 @media (max-width: 767px) {
-	#head {
-		min-height: 420px;
-		/*padding-top: 160px;
-	padding-left: 10px;
-	padding-right: 10px;*/
-	}
-
 	#head .lead {
 		font-size: 34px;
 	}
