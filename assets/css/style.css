@@ -45,6 +45,28 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 	margin-bottom: 5px;
 }
 
+/*Best thesis award*/
+.best-thesis p{
+	font-size: 13pt;
+}
+
+.best-thesis h2{
+	margin-bottom: 20px;;
+}
+
+.best-thesis ul{
+	font-size: 13pt;
+}
+
+.best-thesis ul li{
+	margin-bottom: 5px;
+}
+
+.best-thesis table
+{
+	font-size: 13pt;
+}
+
 /*rgb(98 145 76)*/
 
 /*General*/
@@ -998,6 +1020,7 @@ nav#filter a.current {
 
 	.navbar-inverse .navbar-collapse,
 	.navbar-inverse .navbar-form {
+		max-height: none;
 		border-color: #101010;
 		overflow: hidden;
 	}
