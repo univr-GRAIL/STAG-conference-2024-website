@@ -99,6 +99,24 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 	margin-bottom: 30px;
 }
 
+.international-organizers p{
+	font-size: 13pt;
+}
+
+.international-organizers ul{
+	font-size: 13pt;
+}
+
+.international-organizers ul li{
+	margin-bottom: 5px;
+}
+
+.international-organizers ul li span
+{
+	font-size: 11pt;
+	font-weight:00;
+}
+
 /*rgb(98 145 76)*/
 
 /*General*/
