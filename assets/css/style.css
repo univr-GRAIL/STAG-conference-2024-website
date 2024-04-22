@@ -34,7 +34,6 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 
 .home h2 {
 	margin-bottom: 20px;
-	;
 }
 
 .home ul {
@@ -48,6 +47,33 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 .important-dates-home {
 	text-align: right;
 	border-left: lightgray solid thin;
+}
+
+.buttons-home {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.news{
+	margin-top: 50px;
+}
+
+.news p {
+	font-size: 13pt;
+}
+
+.news h2 {
+	margin-bottom: 20px;
+}
+
+.news ul {
+	font-size: 13pt;
+}
+
+.news ul li {
+	margin-bottom: 5px;
 }
 
 /*Call for papers*/
@@ -152,6 +178,10 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 	margin-bottom: 5px;
 }
 
+.paper-submission table {
+	font-size: 13pt;
+}
+
 /*Poster submissions*/
 .poster-submission p {
 	font-size: 13pt;
@@ -167,6 +197,10 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 
 .poster-submission ul li {
 	margin-bottom: 5px;
+}
+
+.poster-submission table {
+	font-size: 13pt;
 }
 
 /*Registration*/
@@ -510,6 +544,18 @@ element.style {}
 		border-left: none;
 		/*border-top: lightgray solid thin;*/
 	}
+
+	.buttons-home {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.news h2{
+		text-align: center;
+	}
+	
 }
 
 @media screen and (max-width: 340px) {
@@ -756,6 +802,11 @@ img.pull-left {
 
 .blockquote-box {
 	margin-bottom: 25px
+}
+
+.blockquote-box h3
+{
+	font-size: 20px;
 }
 
 .blockquote-box .square {
