@@ -1,21 +1,8 @@
-Atlanta : Free business/corporate Bootstrap responsive template
+STAG Conference 2024 website
 -------
-Atlanta is a free, responsive, modern-looking business template based on Bootstrap HTML/CSS framework. 
 
-Features :
---------
-=> Easy to use, Heigh quality coded HTML5 and CSS3.
-=> Multi device compatibility
-=> Responsive design with bootstrap
-=> premium quality template
+Static website for Smart Tools and Applications in Graphics Conference 2024 (STAG), based on "vOne" theme by "WebThemez"  http://webthemez.com
 
-Credits :
--------
-=> Design and developed: "WebThemez"  http://webthemez.com
-=> Photos used in template: **Unsplash** - http://unsplash.com
-=> For more free web themes: http://webthemez.com
-=> Framework : http://getbootstrap.com
-
-License :
+License:
 -------
 **Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/
