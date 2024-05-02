@@ -182,6 +182,43 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 	font-size: 13pt;
 }
 
+.herotxt-submissions {
+	background: #93bb93;
+}
+
+.herotxt-submissions p {
+	font-size: 20px;
+	color: #333;
+}
+
+.herotxt-submissions span {
+	color: #222;
+	display: block;
+	font-size: 35px;
+	line-height: 45px;
+	font-weight: normal;
+	margin-bottom: 12px;
+}
+
+.herotxt-submissions p {
+	margin-bottom: 0;
+}
+
+.herotxt-submissions .btn-download a {
+	text-align: center;
+	display: inline-block;
+	background: #fff;
+	font-size: 20px;
+	padding: 20px 20px;
+	text-decoration: none;
+	color: #222;
+	width: 85%
+}
+
+.herotxt-submissions .btn-download {
+	text-align: center;
+}
+
 /*Poster submissions*/
 .poster-submission p {
 	font-size: 13pt;
@@ -641,7 +678,7 @@ element.style {}
 
 .sectionBox {
 	padding-top: 35px;
-	padding-bottom: 40px;
+	padding-bottom: 35px;
 }
 
 .slideUp {
