@@ -56,7 +56,7 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 	align-items: center;
 }
 
-.news{
+.news {
 	margin-top: 50px;
 }
 
@@ -125,22 +125,21 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 	margin-bottom: 30px;
 }
 
-.international-organizers p{
+.international-organizers p {
 	font-size: 13pt;
 }
 
-.international-organizers ul{
+.international-organizers ul {
 	font-size: 13pt;
 }
 
-.international-organizers ul li{
+.international-organizers ul li {
 	margin-bottom: 5px;
 }
 
-.international-organizers ul li span
-{
+.international-organizers ul li span {
 	font-size: 11pt;
-	font-weight:00;
+	font-weight: 00;
 }
 
 /*Venue*/
@@ -159,6 +158,15 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 
 .venue ul li {
 	margin-bottom: 5px;
+}
+
+.venue-images {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	flex-direction: column;
+	margin-bottom: 50px;
 }
 
 /*Paper submissions*/
@@ -274,6 +282,55 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 	margin-bottom: 5px;
 }
 
+/*phd school*/
+.phd-school-title {
+	float: left;
+	width: 100%;
+
+	height: inherit;
+	padding: 30px;
+
+	background-color: #ffffff;
+
+	text-align: center;
+	color: black;
+	font-family: "Open sans", Helvetica, Arial;
+	font-weight: 300;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	background-image: url("../../assets/images/arenaBW.jpg");
+	background-size: cover;
+	background-position: right top;
+}
+
+.phd-school-title h1 {
+	margin-bottom: 30px;
+}
+
+.phd-school-title h3 {
+	text-align: left;
+	margin: 0;
+}
+
+.phd-school-main p {
+	font-size: 13pt;
+}
+
+.phd-school-main h2 {
+	margin-bottom: 20px;
+}
+
+.phd-school-main ul {
+	font-size: 13pt;
+}
+
+.phd-school-main ul li {
+	margin-bottom: 5px;
+}
 
 /*rgb(98 145 76)*/
 
@@ -373,8 +430,7 @@ element.style {}
 	background-color: rgb(71, 114, 71);
 }
 
-.navbar-nav .dropdown-menu > li > a
-{
+.navbar-nav .dropdown-menu>li>a {
 	color: rgba(255, 255, 255, 0.8);
 }
 
@@ -535,6 +591,15 @@ element.style {}
 		flex: 1;
 	}
 
+	.phd-school-title {
+		width: 100%;
+		flex-direction: column;
+		height: auto;
+		padding: 50px;
+
+		flex: 1;
+	}
+
 	.info-sec h1 {
 		font-size: 26pt;
 	}
@@ -589,10 +654,10 @@ element.style {}
 		align-items: center;
 	}
 
-	.news h2{
+	.news h2 {
 		text-align: center;
 	}
-	
+
 }
 
 @media screen and (max-width: 340px) {
@@ -841,8 +906,7 @@ img.pull-left {
 	margin-bottom: 25px
 }
 
-.blockquote-box h3
-{
+.blockquote-box h3 {
 	font-size: 20px;
 }
 
