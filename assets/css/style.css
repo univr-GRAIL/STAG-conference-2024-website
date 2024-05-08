@@ -282,6 +282,10 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 	margin-bottom: 5px;
 }
 
+.accomodation table {
+	font-size: 13pt;
+}
+
 /*phd school*/
 .phd-school-title {
 	float: left;
@@ -613,6 +617,10 @@ element.style {}
 		margin-right: 0px;
 		margin-top: 10px;
 		width: 100%;
+	}
+
+	.image-no-display-mobile{
+		display: none;
 	}
 
 	.da-slide p.attribution {
