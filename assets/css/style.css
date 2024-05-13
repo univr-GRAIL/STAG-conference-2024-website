@@ -311,7 +311,8 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 	background-position: right top;
 }
 
-.phd-school-title h1 {
+.phd-school-title h2 {
+	width: 100%;	
 	margin-bottom: 30px;
 }
 
@@ -334,6 +335,10 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 
 .phd-school-main ul li {
 	margin-bottom: 5px;
+}
+
+.phd-school-main table {
+	font-size: 13pt;
 }
 
 /*rgb(98 145 76)*/
