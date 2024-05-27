@@ -265,6 +265,10 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 	margin-bottom: 5px;
 }
 
+.registration table {
+	font-size: 13pt;
+}
+
 /*Accomodation*/
 .accomodation p {
 	font-size: 13pt;
