@@ -290,6 +290,27 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 	font-size: 13pt;
 }
 
+/*Keynotes*/
+.keynotes p {
+	font-size: 13pt;
+}
+
+.keynotes h2 {
+	margin-bottom: 20px;
+}
+
+.keynotes ul {
+	font-size: 13pt;
+}
+
+.keynotes ul li {
+	margin-bottom: 5px;
+}
+
+.keynotes table {
+	font-size: 13pt;
+}
+
 /*phd school*/
 .phd-school-title {
 	float: left;
