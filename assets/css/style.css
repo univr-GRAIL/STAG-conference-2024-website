@@ -94,6 +94,29 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 	margin-bottom: 5px;
 }
 
+/*Sponsors*/
+.sponsors {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.sponsors p {
+	font-size: 13pt;
+}
+
+.sponsors h3 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.sponsors ul {
+	font-size: 13pt;
+}
+
+.sponsors ul li {
+	margin-bottom: 5px;
+}
+
 /*Best thesis award*/
 .best-thesis p {
 	font-size: 13pt;
@@ -696,6 +719,9 @@ element.style {}
 		text-align: center;
 	}
 
+	.sponsors h3 {
+		text-align: center;
+	}
 }
 
 @media screen and (max-width: 340px) {
