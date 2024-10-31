@@ -334,6 +334,24 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 	font-size: 13pt;
 }
 
+/*program*/
+.program p {
+	font-size: 13pt;
+}
+
+.program h2 {
+	margin-bottom: 20px;
+	;
+}
+
+.program ul {
+	font-size: 13pt;
+}
+
+.program ul li {
+	margin-bottom: 5px;
+}
+
 /*phd school*/
 .phd-school-title {
 	float: left;
